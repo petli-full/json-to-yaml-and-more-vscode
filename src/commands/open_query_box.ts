@@ -7,7 +7,7 @@ function newQueryBox() {
     const queryBox = vscode.window.createInputBox();
     queryBox.ignoreFocusOut = true;
     queryBox.placeholder = 'A | B (convert type A to B)';
-    queryBox.prompt = 'types: json, yaml, xml, csv, hjson, json5, ini, toml';
+    queryBox.prompt = 'types: json, yaml, xml, csv, hjson, json5, ini, toml, hocon';
     queryBox.onDidChangeValue((val) => {
         query.next(val);
     });

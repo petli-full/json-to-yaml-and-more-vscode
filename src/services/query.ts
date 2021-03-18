@@ -12,6 +12,7 @@ const supportedTypes = [
     'json5',
     'ini',
     'toml',
+    'hocon',
 ];
 
 interface Query {

@@ -19,6 +19,7 @@ const typeToLanguageId = (type: string): string => {
         json5: 'plaintext',
         hjson: 'plaintext',
         csv: 'plaintext',
+        hocon: 'plaintext',
     };
 
     let languageId = languageIdMap[type];
